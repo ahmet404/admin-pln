@@ -1,0 +1,84 @@
+*{margin:0;padding:0;box-sizing:border-box;list-style-type:none;text-decoration:none;color:#111;}
+	body{background-color:#f1f1f1;font-family:trebuchet MS;height:100%;}
+	header{background-color:#333;width:190px;position:fixed;height:100%;bottom:0;left:0;}
+	header h2{background-color:gold;color:#fff;font-family:segoe script;padding:15px 30px;width:100%;}
+	header h3{color:gold;font-size:14px;text-align: center;padding:10px;}
+	ul p{color:#4b646f;font-size:11.5px;background-color:#222;padding:15px;}
+	ul li:hover a{background-color:#222;border-left:4px solid gold;}
+	ul li a{display: block;padding:13px;color:#eee;font-size:14px;}
+	content{position:absolute;width:calc(100% - 190px);right:0;top:0px;padding:10px;font-size:14px;}
+	content .garis{background-color:#999;height:3px;width:100%;margin:10px 0 ;}
+	.content{background-color: white;padding:15px;width:100%;overflow-x: auto;}
+	.content h3{margin-bottom:10px;}
+	.content h5{margin-top:10px;}
+	.btn{border:1px solid #333;border-radius:5px;padding:5px 10px;cursor:pointer;}
+	table{border-collapse:collapse;margin-top:15px;}
+	th, td{padding:10px 4px;}
+	th{background-color:gold;}
+	.tb-create{width:95%;max-width:450px;margin:auto;}
+	form{background-color:white;width:95%;max-width:30em;margin:auto;padding:10px;}
+	.input-field{padding:8px 10px;width:100%;}
+
+	/*STYLE FORM LOGIN*/
+#login{
+	width: 95%;
+	max-width:500px;
+	padding: 20 20;
+	background: white;
+	margin: 80 auto;
+	text-align: center;
+	box-shadow: 0 0 8px #c7c7c7;
+	border-radius: 3px;
+}
+#login h3{
+	padding-top: 18px;
+	line-height: 1.5;
+}
+#login input{
+	width: 100%;
+	margin-top: 5px;
+	padding: 15 10;
+	border: 1px solid #c7c7c7;
+	outline: none;
+	transition: 0.5s;
+}
+#login img{
+	padding: 20 0;
+	width: 35%;
+}
+#login input:hover{
+	border: 1px solid #1E8BC3;
+}
+#login input:focus{
+	border: 1px solid #1E8BC3;
+}
+#login input[type="submit"]{
+	width: 100%;
+	background: #1E8BC3;
+	color: white;
+}
+#login input[type="submit"]:hover{
+	background:#2574A9;
+	transition: 0.5s;
+	border: 1px solid #2574A9;
+}
+#footer_login{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #adadad;
+}
+#footer_login a{
+	color: #1E8BC3;
+	text-decoration: none;
+}
+.info{
+	border: 1px solid #ee3137;
+	max-width: 100%;
+	background: #ee3137;
+	color: white;
+	padding: 16 5;
+	text-align: center;
+	font-family: arial;
+	font-size: 13;
+}
